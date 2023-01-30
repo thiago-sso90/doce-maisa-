@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>produtos-doce-maisa</title>
+           <link rel="stylesheet" href="produtosd-m.css">
+           <link rel="stylesheet" href="resect.css">
+           
+        </head> 
+
+        <body>
+         <heder>
+                <h1><img id="topo-logo" src="https://img.freepik.com/vetores-gratis/pingando-lodo-rosa-brilhante-com-glitter_1441-4261.jpg?w=826&t=st=1675007866~exp=1675008466~hmac=0a47e47e9f2330ac43d959a408d28391f7c29e171ed3223ac14201c1ce03d71b"></h1>
+                <div class="caixa-botao">
+                  
+             <nav>
+                <ul>
+                    <li class="bota1"><a href="docemaisa.html">inicio</a></li>
+                    <li class="bota2"><a href="produtosd-m.html">conheça nossos produtos</a></li>
+                    <li class="bota3"><a href="">faça seu pedido</a></li>
+                </ul>
+             </nav>
+            </div>
+          </heder>
+          <main>
+            <form>
+                <label form="nomeesobrenome">Nome e sobrenome: </label>
+                <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="Didite seu nome">
+
+                <label form="endereço">Endereço: </label>
+                <input type="endereco" id="endereco" class="input-padrao" required placeholder="Digite seu enderço">
+
+                <label form="telefone">telefone para contato: </label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) (x xxxx-xxxx)">
+
+                <label for="date">Data para entrega: </label>
+                <input type="date" id="data" class="input-padrao" required placeholder="Data">
+
+                <label form="mensagem">observações: </label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Alguma restrição?"></textarea>
+
+                <fieldset>
+                    <legend>Qual a forma de pagamento? </legend>
+
+                    <label for="radio-cartao"><input type="radio" name=contato value="catao"  required>Cartão</label>
+                    
+                    <label for="radio-pix"> <input type="radio" name=contato value="pix">Pix</label>
+                   
+                    <label for="radio-especie"><input type="radio"name=contato value="especie">Especie</label>
+                    
+                 </fieldset>
+
+            <fieldset>
+                    <legend>Qual periodo prefere a entrega?</legend>
+                <select  class="input-padrao">
+                    <option selected  disabled value="" required></option>
+                    <option>manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+             </fieldset>
+
+             <input type="submit" value="Enviar pedido" class="enviar">
+
+
+            </form>
+
+            <table>
+
+                <thead>
+                    <h1 class="titulo-horario">NOSSO HORARIO DE ATENDIMENTO:</h1>
+                    <tr>
+                        <th>DIA</th>
+                        <th>HORARIO</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>SEGUNDA</td>
+                        <td>8h as 18h</td>
+                    </tr>
+                    <tr>
+                        <td>TERÇA</td>
+                        <td>8h as 18h</td>
+                    </tr>
+
+                    <tr>
+                        <td>QUARTA</td>
+                        <td>8h as 18h</td>
+                    </tr>
+                    <tr>
+                        <td>QUINTA</td>
+                        <td>8h as 18h</td>
+                    </tr>
+                    <tr>
+                        <td>SEXTA</td>
+                        <td>8h as 17h</td>
+                    </tr>
+                    <tr>
+                        <td>SABADO</td>
+                        <td>8h as 16h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+            <footer>
+                 <p class="copy">&copy; copyright DOCE-MAISA-CONFEITARIA</p>
+            </footer>
+        </body>
+    </html>

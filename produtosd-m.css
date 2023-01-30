@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(red,white,chocolate);
+}
+
+#topo-da-tela{
+    width: 100%;
+    padding: 0 0 25px ;
+    margin: 0 0 20px ;
+
+    
+}
+.caixa-botao{
+   text-align: center;
+   
+}
+
+
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+    width: 100%;
+    
+    
+       
+        animation-name: animacao;
+        animation-duration: 6s;
+        animation-delay: 2s;
+}
+/* mexer nos textos de link*/
+nav a { 
+    text-transform: uppercase;
+    color: rgb(247, 12, 12);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: rgb(14, 15, 14);
+    
+}
+.texto{
+    font-size: large;
+   
+}
+.titulo-produtos{
+    text-align: center;
+    border-radius: 100%;
+    background: rgb(202, 136, 136);
+}
+.fotos-de-bolo{
+  width: 50%;
+  box-shadow: 10px 10px 5px #000;
+  
+  
+}
+.fotos-de-bolo1{
+    width: 50%;
+    margin: 0 0 60px;
+    text-align: top;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 10px 10px 5px #000;
+    
+}
+
+.produtos-bolo li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    margin:   0 0 1.5%;
+    box-sizing: border-box;
+    border-color: #e60e0e;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 0px 0px 0px 25px;
+    
+       
+}
+img :hover{
+    color: rgb(22, 21, 20);
+}
+
+button :hover{
+    background: #e60e0e;
+
+}
+button{
+    background: #e60e0e;
+    cursor: pointer;
+    
+}
+
+.copy{
+    text-align: center;
+    padding: 80px 20px 20px ;
+}
+/*formulario de pedidos*/
+
+#topo-logo {
+    width: 100%;
+
+}
+
+form{
+    margin: 40px 0;
+    
+}
+
+form label,form legend{
+    display: block;
+    margin: 0 0 10px;
+    text-align:left;
+    
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    border: #000 solid 1px;
+}
+
+.enviar{
+    width: 20%;
+    padding: 15px 0;
+    background-color: #e60e0e;
+    color: #000;
+    font-weight: bold ;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    position: left;
+ 
+}
+
+.enviar:hover{
+    color: rgb(247, 239, 239);
+    background-color: #000;
+    transform: sans-serif(1.2);
+}
+/* tabela*/
+.titulo-horario{
+    font-size: 20px;
+}
+table{
+    margin: 20px 40px;
+}
+
+thead{
+    background: #555;
+    color: #fff;
+}
+
+td,th{
+    border: 1px solid #000
+
+}
